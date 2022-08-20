@@ -1,9 +1,12 @@
 <div>
-<h2>My Expertise:</h2>
+<h2>Moje umiejętności</h2>
 
-{% for item in site.data.main.expertise %}
+{% assign expertises = site.data.main.expertise | sort: "level" | reverse %}
+{% for item in expertises  %}
 <div class="skillbar clearfix" data-percent="{{item.level}}%">
-	<div class="skillbar-title" style="background: {{item.color | color_darken: 50}}"><span>{{item.title}}</span></div>
+	<div class="skillbar-title" style="background: {{item.color | color_darken: 50}}">
+		<span>{{item.title}}</span>
+	</div>
 	<div class="skillbar-bar" style="background: {{item.color}};"></div>
 	<div class="skill-bar-percent">{{item.level}}</div>
 </div>

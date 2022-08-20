@@ -3,10 +3,10 @@
   {% if paginator.previous_page %}
   <a
     href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-    >&laquo; Prev</a
+    >&laquo; Poprzednia</a
   >
   {% else %}
-  <span>&laquo; Prev</span>
+  <span>&laquo; Poprzednia</span>
   {% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
   paginator.page %}
   <span class="active">{{ page }}</span>
@@ -20,10 +20,10 @@
   {% endif %} {% endfor %} {% if paginator.next_page %}
   <a
     href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-    >Next &raquo;</a
+    >Następna &raquo;</a
   >
   {% else %}
-  <span>Next &raquo;</span>
+  <span>Następna &raquo;</span>
   {% endif %}
 </div>
 {% endif %}

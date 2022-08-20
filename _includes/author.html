@@ -12,6 +12,19 @@
       <h5>{{site.author.name }}</h5>
       <p>{{site.author.bio}}</p>
       <ul>
+        {% if site.author.instagram %}
+        <li>
+          <a target="_blank" href="{{site.author.instagram}}"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </li>
+        {% endif %}{% if site.author.youtube %}
+        <li>
+          <a target="_blank" href="{{site.author.youtube}}"
+            ><i class="fa fa-youtube" aria-hidden="true"></i
+          ></a>
+        </li>
+        {% endif %}
         {% if site.author.facebook %}
         <li>
           <a target="_blank" href="{{site.author.facebook}}"

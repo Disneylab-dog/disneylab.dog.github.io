@@ -1,9 +1,9 @@
 # Image, name, profession in the sidebar
 
 image: /assets/images/DisneyProfilowe.jpg
-name: Disney
-profession: A Web Developer
-email: contact@disneylab.dog# The contact form submissions will be received in this email address.
+name: Disney 
+profession: FCI Labrador Retriever  
+email: kontakt@disneylab.dog # The contact form submissions will be received in this email address.
 
 #   ,-----.       ,--.                   ,---.  ,--.
 #  '  .--./ ,---. |  | ,---. ,--.--.    '   .-' |  ,---.  ,---. ,--,--,--. ,---.
@@ -23,32 +23,38 @@ color-scheme: green
 # Set this to false in production
 color-scheme-changer-widget: true
 
-
+# formspree formula
+formspree:
+  form: xeqdqywz
+  recapatcha: 6Lc7NpMhAAAAABQNG2Evn4ebrEZYIyD-gwyLxEU0
 
 
 # Menu items in the sidebar
 # Use a maximum of 3 items
 menu:
-  - title: Projects
-    link: /projects/
+  - title: Wystawy
+    link: /wystawy/
 
   - title: Blog
     link: /blog/
 
-  - title: Contact
-    link: /contact/
+  - title: Kontakt
+    link: /kontakt/
 
-
+disqus: disnaylab-dog
 
 # Social icons in the sidebar
 # use font awesome icon code in the 'icon:' value
 social:
-  # facebook:
-  #      icon: fa-facebook-square
-  #      link: https://facebook.com
+  facebook:
+    icon: fa-facebook-square
+    link: https://facebook.com
   instagram:
-       icon: fa-brands fa-instagram
-       link: https://www.instagram.com/disneylab.dog/
+    icon: fa-brands fa-instagram
+    link: https://www.instagram.com/disneylab.dog/
+  youtube:
+    icon: fa fa-youtube
+    link: https://youtube.com/channel/UCoOJhoSYuy6vPnoaFMr5XwA
 
   # twitter:
   #     icon: fa-twitter
@@ -63,7 +69,30 @@ social:
   #     link: https://github.com
 
 
+expertise:
+  - title: 🍖Jedznie
+    level: 100
+    color: rgb(247, 205, 182)
 
+  - title: 💤Spanie
+    level: 100
+    color: rgb(113, 178, 222) 
+
+  - title: 🎾Zabawa
+    level: 100
+    color: rgb(80, 185, 185)
+
+  - title: 🦮Grzeczność
+    level: 75
+    color: rgb(124, 142, 222)
+
+  - title: 🐶Nosework
+    level: 25
+    color: rgb(160, 158, 158)
+  
+  - title: 🏅Handling
+    level: 60
+    color: rgb(112, 195, 148)
 # expertise:
 #   - title: HTML5
 #     level: 45
