@@ -10,15 +10,15 @@
 # Changing title and description according to your website requirement is important.
 
 
-title: Blackcurrant
-description: Blackcurrant is a minimal theme to show off your skills online.
-url: https://blackcurrant.jekyll-themes.com
+title: Disney FCI 
+description: Mój mały internetowy psi zakontek gdzie oznaczam swoje psie życie.
+url: https://disneylab.dog
 # baseurl: /something
 # Baseurl is disabled by default. https://ben.balter.com/jekyll-style-guide/config/#baseurl
 
-buy-link: 
-  rzp: https://rzp.io/l/blackcurrant-theme
-  pp: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TM7X9TE7KMKN
+#buy-link: 
+#  rzp: https://rzp.io/l/blackcurrant-theme
+#  pp: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TM7X9TE7KMKN
 # For more customizations, go to  _data/main.yml
 
 
@@ -46,9 +46,6 @@ paginate_path: /blog/page:num/
 include:
     - _pages
 
-# Google Ananlytics Tracker.
-# Sign up with Google analytics and replce with your analytics ID.
-analytics: UA-92266803-3
 
 # Table of contents in each post
 # Change the value to 'no' if Table of Contents is not required.
@@ -62,7 +59,7 @@ share: yes
 # Comments by Disqus
 # Sign up with Disqus to get your shortcode. Leave it blank if you do not want to run diqus code on the website.
 # Leave it blank to remove disqus completely.
-disqus: webjeda-demo
+disqus: disnaylab-dog
 
 
 # Define whether recent posts should be shown at the bottom of each post.
@@ -103,7 +100,7 @@ compress_html:
 collections:
     projects:
         output: true
-        permalink: /projects/:path/
+        permalink: /wystawy/:path/
 
 exclude:
     - .git
