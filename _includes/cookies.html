@@ -1,0 +1,53 @@
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"pl","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"disneylab.dog","website_privacy_policy_url":"https://disneylab.dog/polityka-prywatnosci"});
+});
+</script>
+
+<!-- Google Analytics -->
+<script type="text/plain" cookie-consent="tracking"
+  src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js"
+  async
+></script>
+<script type="text/plain" cookie-consent="tracking">
+  var galite = galite || {};
+  galite.UA = "{{site.analytics}}";
+</script>
+<!-- end of Google Analytics-->
+
+<!-- disqus -->
+<script type="text/plain" cookie-consent="functionality" defer>
+  (function() {
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://{{site.disqus}}.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<!-- end of disqus-->
+
+<!-- recaptcha -->
+<script type="text/plain" cookie-consent="strictly-necessary" src="https://www.google.com/recaptcha/api.js" async defer/>
+<script type="text/plain" cookie-consent="strictly-necessary">
+  window.onload = function() { 
+  var el = document.getElementById('g-recaptcha-response'); 
+  if (el) { 
+    el.setAttribute('required', 'required'); 
+  } 
+</script>
+<!-- end of recaptcha-->
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/" rel="nofollow noopener">TermsFeed Policy Generator</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
+
+
+
+<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+{% if   jekyll.environment == 'development'%}
+<a href="#" id="open_preferences_center">Update cookies preferences</a>
+{% if  %}
